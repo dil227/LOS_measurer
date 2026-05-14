@@ -38,7 +38,8 @@ with st.container():
     oxygen = st.selectbox("Oxygen needed", ["No", "Yes"])
     delirium = st.selectbox("Delirium", ["No", "Yes"])
     placement = st.selectbox("Placement issue", ["No", "Yes"])
-    st.write("AKI: " {aki}, "Sepsis: " {sepsis}, "Oxygen: " {oxygen}, "Delirium: " {delirium}, "Placement: " {placement})
+
+    st.write(f"AKI: " {aki}, "Sepsis: " {sepsis}, "Oxygen: " {oxygen}, "Delirium: " {delirium}, "Placement: " {placement})
 
     bmi = st.number_input(
         "BMI",
